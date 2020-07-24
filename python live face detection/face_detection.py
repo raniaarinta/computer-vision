@@ -4,8 +4,6 @@ import cv2
 #load pre-trained data from open cv using haar cascade algorithm
 trained_face= cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
 
-#load image
-img= cv2.imread('bts_suga.jpg')
 
 #load webcam
 webcam=cv2.VideoCapture(0)
