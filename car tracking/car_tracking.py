@@ -8,7 +8,7 @@ trained_car= cv2.CascadeClassifier(car_classifier)
 trained_pedestrian= cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_fullbody.xml")
 
 #load image
-video= cv2.VideoCapture('Tesla Autopilot Dashcam.mp4')
+video= cv2.VideoCapture('TeslaAutopilotDashcamCompilation2018Versionmp4.mp4')
 
 
 while True:
