@@ -28,25 +28,3 @@ cv2.waitKey()
 print("code completed")
 
 
-"""
-
-
-#detect car
-car_coordinates=trained_car.detectMultiScale(grayscale_img)
-#detect pedestrian
-pedestrian_coordinates=trained_pedestrian.detectMultiScale(grayscale_img)
-
-#draw the regtangle
-for(x,y,w,h) in face_coordinates:
-    cv2.rectangle(img,(x,y),(x+w, y+h),(0,255,0),2)
-
-print(face_coordinates)
-#show image
-cv2.imshow('face detector',img)
-cv2.waitKey()
-
-print("code completed")
-
-
-
-"""
